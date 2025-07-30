@@ -1,0 +1,42 @@
+/*
+ * Custom styles for the Media Monitoring Dashboard.  These rules
+ * complement the Bootstrap defaults and add subtle tweaks to achieve
+ * a polished, professional look.  Feel free to adjust colours and
+ * spacing to match your company branding.
+ */
+
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Limit the width of the container on large screens for better
+ * readability.  Bootstrap’s container is full width by default
+ * for extra‑large screens; we constrain it slightly. */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+/* Style the table rows to highlight on hover. */
+.table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.025);
+  cursor: pointer;
+}
+
+/* Reduce modal body font size for long articles. */
+.modal-body {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Style the ‘View’ button in the table for consistency. */
+.table .btn-outline-primary {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+}
