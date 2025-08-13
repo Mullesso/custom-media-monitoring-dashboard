@@ -5,10 +5,13 @@ import { Container, Row, Col, Alert, Spinner } from 'react-bootstrap';
 import { fetchArticles } from './api';
 
 // Import reusable UI components
-import SearchBar from './components/SearchBar';
-import Filters from './components/Filters';
-import ArticleTable from './components/ArticleTable';
-import ArticleModal from './components/ArticleModal';
+import SearchBar from './SearchBar';
+
+iimport Filters from './Filters';
+
+import ArticleTable from './ArticleTable';
+
+iimport ArticleModal from './ArticleModal';
 
 /**
  * The App component is the root of the React front‑end.  It manages
