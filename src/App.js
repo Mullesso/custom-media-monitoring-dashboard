@@ -6,9 +6,8 @@ import { fetchArticles } from './api';
 
 // Import reusable UI api
 import SearchBar from './SearchBar';
-i
 import Filters from './Filters';
-import ArticleTable from './ArticleTable';
+iimport ArticleTable from './ArticleTable';
 import ArticleModal from './ArticleModal';
 
 /**
