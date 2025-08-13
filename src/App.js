@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Alert, Spinner } from 'react-bootstrap';
 
-// Import helper for calling the back‑end API
+// Import api for calling the back‑end API
 import { fetchArticles } from './api';
 
-// Import reusable UI components
+// Import reusable UI api
 import SearchBar from './SearchBar';
-
-iimport Filters from './Filters';
-
+i
+import Filters from './Filters';
 import ArticleTable from './ArticleTable';
-
-iimport ArticleModal from './ArticleModal';
+import ArticleModal from './ArticleModal';
 
 /**
  * The App component is the root of the React front‑end.  It manages
